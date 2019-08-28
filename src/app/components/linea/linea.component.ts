@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ChartDataSets, ChartOptions } from 'chart.js';
 import { Color, BaseChartDirective, Label } from 'ng2-charts';
-import * as pluginAnnotations from 'chartjs-plugin-annotation';
+/* import * as pluginAnnotations from 'chartjs-plugin-annotation'; */
 
 @Component({
   selector: 'app-linea',
@@ -85,7 +85,7 @@ export class LineaComponent implements OnInit {
   ];
   public lineChartLegend = true;
   public lineChartType = 'line';
-  public lineChartPlugins = [pluginAnnotations];
+/*   public lineChartPlugins = [pluginAnnotations]; */
 
   @ViewChild(BaseChartDirective, { static: true }) chart: BaseChartDirective;
 
