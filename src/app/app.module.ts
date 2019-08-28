@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 /* libreria de los graficos o chart : url:https://valor-software.com/ng2-charts/  */
 import { ChartsModule } from 'ng2-charts';
+import { LineaComponent } from './components/linea/linea.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LineaComponent
   ],
   imports: [
     BrowserModule,
