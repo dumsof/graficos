@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 /* libreria de los graficos o chart : url:https://valor-software.com/ng2-charts/  */
 import { ChartsModule } from 'ng2-charts';
 import { LineaComponent } from './components/linea/linea.component';
+import { BarraComponent } from './components/barra/barra.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineaComponent
+    LineaComponent,
+    BarraComponent
   ],
   imports: [
     BrowserModule,
